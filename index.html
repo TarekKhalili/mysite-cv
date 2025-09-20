@@ -1,0 +1,161 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Tarek Al-Khalili – CV</title>
+  <meta name="description" content="CV / Resume of Tarek Al-Khalili – Software Architect & Full-Stack Engineer" />
+  <style>
+    :root{
+      --bg:#0b0f14; --card:#121821; --muted:#94a3b8; --text:#e6edf3; --accent:#60a5fa;
+    }
+    html,body{margin:0;height:100%;font-family:system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,"Helvetica Neue",Arial,sans-serif;background:var(--bg);color:var(--text);}
+    .wrap{max-width:900px;margin-inline:auto;padding:32px;}
+    header{display:flex;flex-wrap:wrap;gap:12px;align-items:flex-end;justify-content:space-between;margin-bottom:20px}
+    h1{font-size:clamp(1.6rem,3.5vw,2.4rem);margin:0;line-height:1.2}
+    .role{color:var(--accent);font-weight:600}
+    .contact{display:flex;flex-wrap:wrap;gap:10px;font-size:.95rem}
+    .contact a{color:var(--muted);text-decoration:none;border:1px solid #1f2937;padding:6px 10px;border-radius:8px}
+    .grid{display:grid;grid-template-columns:1fr;gap:16px}
+    @media(min-width:880px){.grid{grid-template-columns:1fr 1fr}}
+    section{background:var(--card);border:1px solid #1f2937;border-radius:14px;padding:18px;margin:16px 0;}
+    section h2{margin:0 0 10px;font-size:1.05rem;letter-spacing:.2px;color:#cbd5e1}
+    ul{margin:0;padding-left:18px}
+    .chips{display:flex;flex-wrap:wrap;gap:8px}
+    .chip{font-size:.92rem;background:#0b1220;border:1px solid #1f2937;padding:6px 10px;border-radius:999px;color:#dbeafe}
+    .muted{color:var(--muted)}
+    .jobs{display:flex;flex-direction:column;gap:14px}
+    .job h3{margin:0 0 6px;font-size:1rem}
+    .job .meta{font-size:.92rem;color:var(--muted)}
+    .bullets{margin-top:6px}
+    footer{margin-top:26px;color:var(--muted);font-size:.9rem;text-align:center}
+    a{color:#93c5fd}
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <div>
+        <h1>Tarek Al-Khalili</h1>
+        <div class="role">Software Architect & Full-Stack Engineer</div>
+      </div>
+      <nav class="contact" aria-label="Contact">
+        <a href="mailto:tarek.alkhalili.93@gmail.com">tarek.alkhalili.93@gmail.com</a>
+        <a href="tel:+963938041523">+963 938 041 523</a>
+        <a href="https://www.linkedin.com/in/tarek-alkhalili" target="_blank" rel="noopener">LinkedIn</a>
+      </nav>
+    </header>
+
+    <section>
+      <h2>Professional Summary</h2>
+      <p>Highly motivated and results-driven Software Architect & Full-Stack Engineer with expertise in designing and implementing scalable, high-performance systems. Skilled in cloud-based architectures, microservices, and modern development practices (DDD, CQRS, Clean Architecture). Proven track record leading cross-functional teams and delivering complex solutions in diverse environments, including multinational organizations such as the United Nations.</p>
+    </section>
+
+    <div class="grid">
+      <section>
+        <h2>Technical Skills</h2>
+        <div class="chips" role="list" aria-label="Technical skills">
+          <span class="chip">C# / ASP.NET Core</span>
+          <span class="chip">Node.js</span>
+          <span class="chip">React</span>
+          <span class="chip">DDD • Microservices • CQRS • Mediator</span>
+          <span class="chip">PostgreSQL</span>
+          <span class="chip">SQL Server</span>
+          <span class="chip">ElasticSearch</span>
+          <span class="chip">Azure</span>
+          <span class="chip">Docker</span>
+          <span class="chip">Nginx</span>
+          <span class="chip">Queues & WebHooks</span>
+          <span class="chip">Linux • Git • REST • Elastic Stack</span>
+        </div>
+      </section>
+
+      <section>
+        <h2>Soft Skills</h2>
+        <ul>
+          <li>Leadership & team management</li>
+          <li>Problem solving & troubleshooting</li>
+          <li>Performs under pressure & meets deadlines</li>
+          <li>Excellent communication</li>
+        </ul>
+      </section>
+    </div>
+
+    <section>
+      <h2>Professional Experience</h2>
+      <div class="jobs">
+        <article class="job">
+          <h3>Back-End Engineer & Team Lead — AtrasLab — Saudi Arabia</h3>
+          <div class="meta">Mar 2023 – Present</div>
+          <ul class="bullets">
+            <li>Designed and maintained APIs for high-availability, scalable cloud systems.</li>
+            <li>Managed cloud infrastructure, including domains, load balancing, and server configuration.</li>
+            <li>Led a development team delivering features on schedule; improved deployment efficiency.</li>
+          </ul>
+        </article>
+
+        <article class="job">
+          <h3>Project Associate — UNRWA — United Nations</h3>
+          <div class="meta">Jan 2022 – Dec 2024</div>
+          <ul class="bullets">
+            <li>Supported the cash distribution system serving thousands of beneficiaries.</li>
+            <li>Coordinated with multinational teams to ensure smooth project operations.</li>
+          </ul>
+        </article>
+
+        <article class="job">
+          <h3>Full-Stack Engineer — Hnndes</h3>
+          <div class="meta">2022 – 2023</div>
+          <ul class="bullets">
+            <li>Contributed to an HR system built with .NET Core and hosted on AWS.</li>
+            <li>Led system design and planned integrations with external platforms.</li>
+          </ul>
+        </article>
+
+        <article class="job">
+          <h3>Full-Stack Engineer & Team Lead — Paprika</h3>
+          <div class="meta">2020 – 2022</div>
+          <ul class="bullets">
+            <li>Architected a restaurant services platform using DDD and Clean Architecture.</li>
+            <li>Implemented core features with .NET Core, Docker, Elastic Stack, and Azure.</li>
+          </ul>
+        </article>
+
+        <article class="job">
+          <h3>Freelance Developer — Self-Employed</h3>
+          <div class="meta">2017 – 2019</div>
+          <ul class="bullets">
+            <li>Developed an Android Taxi App integrating Google Maps & Firebase for real-time tracking.</li>
+            <li>Built a movie library web app with data-mining algorithms for personalized recommendations.</li>
+            <li>Created “Friends Locator” Android app with a .NET Core API for real-time location sharing.</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <div class="grid">
+      <section>
+        <h2>Education</h2>
+        <ul>
+          <li>Master’s in Web Sciences (In progress) — Syrian Virtual University</li>
+          <li>Bachelor’s in Information Technology — Syrian Virtual University, 2018</li>
+          <li>Technical Diploma in Network Engineering — Al-Baath University, 2014</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>Languages</h2>
+        <ul>
+          <li>Arabic — Native</li>
+          <li>English — Reading 100%, Writing 90%, Speaking 90%</li>
+        </ul>
+      </section>
+    </div>
+
+    <footer>
+      <span>© <span id="y"></span> Tarek Al-Khalili</span>
+    </footer>
+  </div>
+  <script>document.getElementById('y').textContent = new Date().getFullYear();</script>
+</body>
+</html>
